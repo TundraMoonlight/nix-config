@@ -1,0 +1,95 @@
+,[data-color-mode][data-color-mode="auto"][data-dark-theme="dark"] {
+    --color-canvas-default: #181825 !important;
+    --bgColor-default: #181825 !important;
+    --bgColor-inset: #181825 !important;
+    --button-default-bgColor-rest: #1e1e2e !important;
+    --button-default-bgColor-hover: #313244 !important;
+    --control-borderColor-rest: transparent !important;
+    --borderColor-default: transparent !important;
+    --borderColor-muted: transparent !important;
+    --button-default-borderColor-rest: transparent !important;
+    --button-default-borderColor-hover: transparent !important;
+    --button-invisible-bgColor-active: #1e1e2e !important
+}
+
+kbd,
+ .prc-components-UnderlineItem-7fP-n[aria-current]:not([aria-current="false"])::after,
+.copilotPreview__container {
+    display: none !important
+}
+
+.Table-module__Box__HZKiQ {
+    border-radius: 12px !important
+}
+
+span.fgColor-default {
+    color: #9399b2 !important
+}
+
+.DirectoryReadmePreview-module__readmeContainerFull__ji2VC,
+.feed-left-sidebar,
+.feed-item-content,
+.comment-body, .color-bg-subtle, .bgColor-muted,
+.BlobContent-module__blobContentSection__VOgZq,
+.Input-module__Box_1__t449m,
+.ListItems-module__listContainer__nGkuS,
+.ListItemsHeaderWithoutBulkActions-module__ListViewMetadata_0__mMrOF,
+.OverviewRepoFiles-module__Box_2__zsLGk,
+.OverviewRepoFiles-module__Box_3__bBU1C,
+.OverviewRepoFiles-module__UnderlineNav__QbWWv,
+.Filter-module__hasSubmit__nfAAx{
+    background: #1e1e2e !important;
+}
+
+.Table-module__Box_2__PBp9s th,
+.Table-module__Box_3__d9lz1,
+.react-directory-row,
+.prc-components-TextInputBaseWrapper-wY-n0,
+.LatestCommit-module__Box__B25ZT {
+    background: #1e1e2e;
+    
+    &:hover {
+        background: #313244
+    }
+}
+
+.prc-components-UnderlineItem-7fP-n[aria-current="page"] {
+    background: #1e1e2e;
+    
+    span {
+        color: #cdd6f4
+    }
+}
+
+.DirectoryReadmePreview-module__readmeContainerFull__ji2VC {
+    border-radius: 1rem;
+}
+
+.feed-left-sidebar {
+    margin: 1rem;
+    border-radius: 1rem
+}
+
+.LatestCommit-module__Box__B25ZT {
+    border-radius: 8px;
+    padding-inline: 8px;
+}
+
+.pl-1:has(.LatestCommit-module__Box__B25ZT) {
+    padding: 0 !important
+}
+
+.prc-SegmentedControl-SegmentedControl-lqIXp {
+    background: #1e1e2e
+}
+
+.prc-SegmentedControl-Button-E48xz[aria-current="true"] .prc-SegmentedControl-Content-1COlk {
+    background: transparent;
+    border: none;
+    font-weight: 700
+}
+
+.BlobContent-module__blobContentSection__VOgZq {
+    margin-inline: 8px;
+    border-radius: 8px;
+}
