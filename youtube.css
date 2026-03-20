@@ -1,0 +1,59 @@
+:root[dark], :root[dark] [dark], :root[dark] [system-icons], :root[dark] [darker-dark-theme], :root[dark][dark], :root[dark][system-icons], :root[dark][darker-dark-theme] {
+    --yt-spec-base-background: #181825 !important;
+}
+
+ytd-mini-guide-renderer, ytd-rich-section-renderer, :root[dark] .ytSearchboxComponentSearchButton, :root[dark] .ytSearchboxComponentSearchButtonDark, #buttons.ytd-masthead > .ytd-masthead:not(:last-child), .yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-start::after, #sponsor-button.ytd-video-owner-renderer:not(:empty), #purchase-button.ytd-video-owner-renderer:not(:empty), #analytics-button.ytd-video-owner-renderer:not(:empty), #top-row.ytd-watch-metadata yt-button-view-model, #it-below-player-keyscene {
+    display: none
+}
+
+ytd-two-column-browse-results-renderer {
+    width: 100vw 
+}
+
+.badge-shape.badge-shape-style-type-verified-artist.ytd-badge-supported-renderer svg {
+    fill: #89b4fa !important
+}
+
+.ytd-channel-name {
+    color: #cdd6f4 !important
+}
+
+#page-manager.ytd-app {
+    margin: 0
+}
+
+.ytp-chrome-controls svg {
+    scale: 0.75 !important
+}
+
+#header.ytd-rich-grid-renderer, #chips-wrapper.ytd-feed-filter-chip-bar-renderer, #container.ytd-masthead {
+    background: #181825 !important
+}
+
+:root[dark] .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal, #description.ytd-watch-metadata, :root[dark] .ytVideoMetadataCarouselViewModelHost, :root[dark] .YtVideoMetadataCarouselViewModelHost, .ytp-play-button.ytp-button, .ytp-volume-area, .ytp-delhi-modern .ytp-time-wrapper:not(.ytp-miniplayer-ui *), .ytp-chapter-title.ytp-button, .ytp-right-controls {
+    background: #1e1e2e !important;
+    
+    &:hover {
+        background: #313244 !important
+    }
+}
+
+:root[dark] .ytSearchboxComponentInputBoxDark,
+:root[dark] .ytChipShapeInactive {
+    background: #1e1e2e !important;
+    border: none;
+    border-radius: 100vw;
+}
+
+:root[dark] .ytChipShapeActive {
+    border-radius: 100vw;
+}
+
+#top-row.ytd-watch-metadata {
+    border: none !important;
+    padding-bottom: 0 !important;
+    
+    #text-container a {
+        color: #cdd6f4 !important
+    }
+}
