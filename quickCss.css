@@ -1,0 +1,131 @@
+@import url('https://abbie.github.io/discord-css/import.css');                                                                   /* Configurable Debloater */
+
+.chat_f75fb0 > .subtitleContainer_f75fb0,
+.chatContent_f75fb0,
+.sidebarList__5e434,
+.panels__5e434,
+.guilds__5e434 {
+    background-color: transparent;
+}
+
+.scrim__40128 {
+    backdrop-filter: blur(5px) !important;
+    background-color: hsla(240, 23%, 6%, 0.5);
+}
+
+.channelTextArea_f75fb0,
+.menu_c1e9c4,
+.mainCard_f369db,
+.header_f37cb1 {
+    border: none;
+}
+
+.sidebar__5e434 {
+    border-radius: 1rem;
+}
+
+.sidebar__5e434,
+.container__01ae2,
+.mainCard_f369db
+/* .channelTextArea_f75fb0 */ {
+    background-color: hsl(240, 25%, 13%);
+    padding-right: 0.5rem
+}
+
+.content__5e434,
+.bar_c38106,
+.members_c8ffbb, .member_c8ffbb,
+.channelTextArea_f75fb0,
+.container_f369db {
+    background-color: hsl(240deg, 30%, 10%) !important
+}
+
+/* Configurable Debloater */
+:root {
+    --\\--compact-title-bar: true;
+    --\\--compact-input-box: false;
+    --\\--compact-context-menu: true;
+    --\\--compact-user-area: false;
+    --\\--compact-channel-categories: true;
+    --\\--compact-server-list: false;
+
+    --\\--hide-nameplates: false;
+    --\\--hide-guild-tags: true;
+    --\\--hide-profile-effects: true;
+    --\\--hide-avatar-decorations: true;
+    --\\--hide-gradient-glow-usernames: false;
+    --\\--hide-server-boost-goal: true;
+    --\\--hide-server-activity: true;
+    --\\--hide-user-activity: true;
+    --\\--hide-context-menu-quick-reactions: true;
+    --\\--hide-hover-quick-reactions: true;
+    --\\--hide-image-edit-button: true;
+    --\\--hide-gif-button: false;
+    --\\--hide-sticker-button: false;
+    --\\--hide-emoji-button: false;
+    --\\--hide-apps-button: true;
+    --\\--hide-gift-button: true;
+    --\\--hide-help-button: true;
+    --\\--hide-inbox-button: true;
+    --\\--hide-shop-button: true;
+    --\\--hide-nitro-button: true;
+    --\\--hide-active-now: true;
+    --\\--hide-nitro-upsells: true;
+    --\\--hide-vencord-desktop-platform-indicator: true;
+    --\\--hide-cluttery-badges: true;
+    /* ^ hides quest, hypesquad, active dev, and discriminator badges */
+
+    --\\--darker-scrollbar: true;
+    --\\--darker-hovered-message: false;
+    --\\--prevent-sidebar-resizing: true;
+    --\\--fix-minor-icon-misalignments: true;
+}
+/* only show the server list on hover */
+.guilds__5e434 {
+    width: 0.5rem;
+    transition: 0.2s ease;
+    margin: 0;
+    opacity: 0;
+    &:hover {
+        width: var(--custom-guild-list-width);
+        opacity: 1;
+    }
+}
+
+/* uncomment if the user area is broken */
+/*
+.panels__5e434 {
+    width: calc(100% - var(--custom-panels-spacing) * 2 - var(--custom-guild-list-width) - 1px);
+    transition: width 0.25s ease-in-out;
+}
+.guilds__5e434:hover ~ .panels__5e434 {
+    width: calc(100% - var(--custom-panels-spacing) * 2);
+}
+*/
+
+.wrapper__2ea32.modeSelected__2ea32 {
+    background-color: #89b4fa;
+    border-radius: 8px;
+    
+    .iconContainer__2ea32 svg, .name__2ea32, .children__2ea32 svg {
+        color: #1e1e2e !important;
+        font-weight: 600 !important;
+    }
+}
+
+.name__2ea32 {
+    font-weight: 400;
+}
+
+.container__37e49 {
+    margin-left: -12px;
+}
+
+.unread__2ea32,
+.menu_c1e9c4 .wrapper_f563df,
+.item_c1e9c4#message-apps,
+.item_c1e9c4#message-tts,
+.item_c1e9c4#message-mark-unread,
+.sectionDivider__629e4 {
+    display: none;
+}
